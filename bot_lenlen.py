@@ -1,13 +1,11 @@
 import logging
-# from pprint import pprint
-
 import bot_settings
 import telegram
-# from distance import get_age
 from distance import get_distance_from_hifa, geocode, haversine
 
 from telegram import Update, InlineKeyboardButton
-from telegram.ext import CommandHandler, CallbackContext, MessageHandler, Filters, Updater, InlineQueryHandler, CallbackQueryHandler
+from telegram.ext import CommandHandler, CallbackContext, MessageHandler, Filters, Updater, InlineQueryHandler, \
+    CallbackQueryHandler
 
 logging.basicConfig(
     format='[%(levelname)s %(asctime)s %(module)s:%(lineno)d] %(message)s',
@@ -23,20 +21,13 @@ def start(update: Update, context: CallbackContext):
     context.user_data['place'] = 'jerusalem'
     context.user_data['point_a'] = 'hifa'
     logger.info(f"> Start chat #{chat_id}")
-
-    # location_inline_keyboard = telegram.InlineKeyboardButton(text="send your location", request_location=True)
-    location_keyboard = telegram.KeyboardButton(text="send your location", request_location=True)
-    # location_keyboard_1 = [[location_keyboard]]
-    reply_markup = telegram.ReplyKeyboardMarkup(location_keyboard)
+    location_keyboard = telegram.KeyboardButton(text="send_location", request_location=True)
+    contact_keyboard = telegram.KeyboardButton(text="send_contact", request_contact=True)
+    custom_keyboard = [[location_keyboard, contact_keyboard]]
+    reply_markup = telegram.ReplyKeyboardMarkup(custom_keyboard)
     context.bot.send_message(chat_id=chat_id,
                              text="Would you mind sharing your location and contact with me?",
                              reply_markup=reply_markup)
-    # logger.info('hi')
-    # button_list = [[InlineKeyboardButton("option 1", callback_data='1'),
-    #                 InlineKeyboardButton("option 2", callback_data='2')
-    #                 ],[InlineKeyboardButton("Option 3", callback_data='3')]]
-    # reply_markup = telegram.InlineKeyboardMarkup(button_list)
-    # update.message.reply_text(text='Please choose:', reply_markup=reply_markup)
 
 
 def respond(update: Update, context: CallbackContext):
@@ -56,7 +47,6 @@ def respond(update: Update, context: CallbackContext):
     chat_id = update.effective_chat.id
     logger.info(f"= Got on chat #{chat_id}: {context.user_data['place']!r}")
     logger.info(f"= Got on chat #{chat_id}: {update.message}")
-    # response=get_age(context.user_data['place'])
     context.bot.send_message(chat_id=update.message.chat_id, text=response)
 
 

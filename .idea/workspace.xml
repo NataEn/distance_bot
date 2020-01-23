@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="567eb760-bd6a-4ea9-ab57-ff07eee63c61" name="Default Changelist" comment="" />
+    <list default="true" id="567eb760-bd6a-4ea9-ab57-ff07eee63c61" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot_lenlen.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot_lenlen.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WkIACQjbArik2F6kP67RZQ2l8O" />
   <component name="ProjectViewState">
@@ -15,7 +22,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../appleseedsPython/python 2/funky_word/bot_init.py" />
   </component>
   <component name="RunManager">
     <configuration name="bot_lenlen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -71,25 +79,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="430" y="103" key="FileChooserDialogImpl" timestamp="1579687506961">
+    <state x="287" y="100" key="FileChooserDialogImpl" timestamp="1579778813902">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="430" y="103" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579687506961" />
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom" timestamp="1579774249818">
+    <state x="287" y="100" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1579778813902" />
+    <state width="1259" height="147" key="GridCell.Tab.0.bottom" timestamp="1579779131921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579774249818" />
-    <state width="1259" height="147" key="GridCell.Tab.0.center" timestamp="1579774249817">
+    <state width="1259" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579779131921" />
+    <state width="1259" height="147" key="GridCell.Tab.0.center" timestamp="1579779131921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579774249817" />
-    <state width="1259" height="147" key="GridCell.Tab.0.left" timestamp="1579774249817">
+    <state width="1259" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579779131921" />
+    <state width="1259" height="147" key="GridCell.Tab.0.left" timestamp="1579779131920">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579774249817" />
-    <state width="1259" height="147" key="GridCell.Tab.0.right" timestamp="1579774249818">
+    <state width="1259" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579779131920" />
+    <state width="1259" height="147" key="GridCell.Tab.0.right" timestamp="1579779131921">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579774249818" />
+    <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579779131921" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1579777825058">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1579777825058" />
   </component>
 </project>
